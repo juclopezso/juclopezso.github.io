@@ -1,5 +1,3 @@
-Home Page
-
 
 # Algoritmo Scanline
 --------------------
