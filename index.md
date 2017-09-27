@@ -54,6 +54,7 @@ Con esta misma regla para el caso de aristas horizontales, solo se quiere que se
 ## Media
 
 Un video muy interesante donde se explica el algoritmo Scanline:
+
 [![scanline_video](https://image.ibb.co/fzPAPQ/scanline.png)](https://www.youtube.com/watch?v=rrHVPrbsQYY&t=)
 
 ## Bibliografía
