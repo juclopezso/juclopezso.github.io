@@ -1,7 +1,7 @@
 Home Page
 
 
-Algoritmo Scanline
+# Algoritmo Scanline
 --------------------
 
 También llamado como "scan conversion algorithm", es un tipo de renderizado hecho para aplicaciones 3D, el cual determina la forma en que los objetos de una escena van siendo proyectados.
@@ -51,7 +51,10 @@ Con esta misma regla para el caso de aristas horizontales, solo se quiere que se
 - Los pixeles visibles se procesan sólo una vez siendo benefiio para los casos de alta resolución.
 - Este método funciona para polígonos convexos y cóncavos pero no funciona si el polígono se intersecta a si mismo.
 
+## Media
 
+Un video muy interesante donde se explica el algoritmo Scanline:
+[![scanline_video](https://image.ibb.co/fzPAPQ/scanline.png)](https://www.youtube.com/watch?v=rrHVPrbsQYY&t=)
 
 ## Bibliografía
 
