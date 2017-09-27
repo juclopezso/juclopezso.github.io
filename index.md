@@ -8,13 +8,13 @@ También llamado como "scan conversion algorithm", es un tipo de renderizado hec
 Es uno de los sistemas más utilizados para las aplicaciones 3D.
 
 
-##¿Que es el renderizado?
+## ¿Que es el renderizado?
 
 La renderización es el proceso final de creación de una imagen foto realista desde un modelo 3D. En términos de visualización la renderización es un proceso de cálculo desarrollado por un equipo de computo destinado a generar una imagen 2D a partir de una escena 3D.
 Se han desarrollado distintos métodos de representación que van desde wireframe no realistas a tráves de representaciones basadas en polígonos, hasta técnicas avanzadas como: **scanline**, radiosity o ray tracing.
 
 
-##¿En que consiste?
+## ¿En que consiste?
 
 El algoritmo de Scanline consiste en detectar la intersección de los **scanlines** del dispositivos con los bordes de la primitiva. Por cada **scanline** rellena el espacio de píxeles que este entre cada par de intersrcciones.
 Cuando el polígono es convexo y la figura es primitiva solo hay dos intersecciones por **scanline**.
@@ -24,7 +24,7 @@ Cuando el polígono es convexo y la figura es primitiva solo hay dos interseccio
 En la imagen podemos ver ejemplos de los **scanlines** de las figuras primitivas y los puntos de intersección de cada **scanline** en las figuras.
 
 
-##¿Como funciona?
+## ¿Como funciona?
 
 Primero se debe encontrar las intersecciones de los scanlines con con el polígono.
 Ya encontradas las intersecciones se deben almacenar estos puntos en una estructura de datos, de forma ordenada ascendentemente en y y en x.
@@ -45,7 +45,7 @@ Se cuenta el vértice Ymin de una arista en el cálculo de paridad pero no en el
 Con esta misma regla para el caso de aristas horizontales, solo se quiere que se trace la linea de abajo de una figura, esto ocurrirá de forma automática con la regla propuesta.
 
 
-##Ventajas y desventajas
+## Ventajas y desventajas
 
 - No es necesario traducir las coordenadas de los vértices de la memoria principal en la memoria de trabajo, sólo los vértices que definen los bordes del scanline necesitan estar en la memoria activa y cada vertice es leído solo una vez.
 - Los pixeles visibles se procesan sólo una vez siendo benefiio para los casos de alta resolución.
@@ -53,7 +53,7 @@ Con esta misma regla para el caso de aristas horizontales, solo se quiere que se
 
 
 
-###Bibliografía
+## Bibliografía
 
 1. http://ccg.ciens.ucv.ve/~esmitt/cgI/II-2010/RellenoPoligonos.pdf
 2. http://www.3dcadportal.com/rendering.html
