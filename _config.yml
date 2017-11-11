@@ -1,7 +1,3 @@
-title: juclopezso.github.io
-
-name: Juan C. Lopez
-
-description: Software Engineer 
-
-theme: jekyll-theme-midnight
+name: Juan Camilo Lopez
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
