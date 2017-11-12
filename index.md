@@ -1,3 +1,5 @@
+
+
 ---
 layout: post
 title: "Algoritmo Scanline"
@@ -67,3 +69,14 @@ Un video muy interesante donde se explica el algoritmo Scanline:
 2. http://www.3dcadportal.com/rendering.html
 4. https://es.slideshare.net/jdtorrespal/exposicin-scanline
 5. https://en.wikipedia.org/wiki/Scan_line
+
+
+
+---
+layout: post
+title: "Juclopezso, Launches Site"
+date: 2017-07-30
+---
+
+Primer post de la creación de mi página personal de GitHub usando Markdown y Jekyll.
+
