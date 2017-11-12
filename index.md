@@ -7,10 +7,12 @@ Apasionado por el desarrollo de aplicaciones móviles.
 ## Contacto
 --------------------
 <li><a href="#">@jcamilop9</a></li>
+--------------------
 
 ## Mis proyectos
 --------------------
 <li><a href="#">github.com/juclopezso</a></li>
+--------------------
 
 # Posts
 --------------------
@@ -25,4 +27,5 @@ Acá podrán ver todos mis post relacionados con mis proyectos o mis hobbies
     </li>
   {% endfor %}
 </ul>
+--------------------
 
