@@ -1,7 +1,7 @@
 # Site
-title:          juclopezso blog
+title:          jcls
 description:    "Juan Camilo Lopez personal page"
-#picture:        'assets/img/profile.png'
+picture:        'assets/img/profile.png'
 locale:         en_US
 url:            https://juclopezso.github.io
 
