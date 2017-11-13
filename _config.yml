@@ -1,7 +1,74 @@
-title: Juan Camilo Lopez / Juclopezso
+# Site
+title:          juclopezso blog
+description:    "Juan Camilo Lopez personal page"
+#picture:        'assets/img/profile.png'
+locale:         en_US
+url:            https://juclopezso.github.io
 
-name: Juclopezso
 
-description: Pagina personal de Juan Camilo Lopez 
+# Jekyll
+permalink:      /:title/
+markdown:       kramdown
+highlighter:    rouge
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+sass:
+  sass_dir: _sass
+  style: compressed
 
-theme: jekyll-theme-midnight
+# Social
+# if you don't have any of social below, comment the line.
+#email:
+twitter: jcamilop9
+#facebook: username
+#google:
+  #plus: #username
+  #analytics:
+  #verify:
+  #ad-client:
+  #ad-slot:
+#bing-verify:
+github: juclopezso
+#stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#linkedin: username
+#xing: username
+#instagram: username
+#lastfm: username
+#tumblr: username
+#pinterest: username
+#foursquare: username
+#steam: username
+#dribbble: username
+#youtube: jcamilopez9
+#soundcloud: username
+#weibo: username
+#flickr: username
+#codepen: username
+
+# Paginate
+# if you don't need pagination, comment the *paginate* configs below
+# paginate: 5
+# paginate_path: "blog/:num/"
+
+
+# Comments
+disqus_shortname: alperenbozkurt-net
+
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-paginate
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]

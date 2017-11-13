@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Algoritmo Scanline"
-date: 2017-08-20
+date: 2017-09-20
+excerpt: "Algoritmo Scanline"
+tags: [sample post, readability, test]
 ---
-
-
-# Algoritmo Scanline
---------------------
+**Algoritmo Scanline**
+===
 
 También llamado como "scan conversion algorithm", es un tipo de renderizado hecho para aplicaciones 3D, el cual determina la forma en que los objetos de una escena van siendo proyectados.
 Es uno de los sistemas más utilizados para las aplicaciones 3D.
