@@ -11,7 +11,7 @@ date: 2018-08-16
 
 ### Hello world android studio
 
-* [An absolute link](https://github.com/juclopezso/moviles20182)
+* [Github repo](https://github.com/juclopezso/moviles20182)
 
 ![landing Reto0](https://i.imgur.com/x1cEp9p.png)
 {: .image-pull-right}
